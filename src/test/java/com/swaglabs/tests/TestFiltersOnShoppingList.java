@@ -13,9 +13,9 @@ import com.automation.common.SetWebDrivers;
 import com.swaglabs.pagefactory.LoginPage;
 
 
-public class testFiltersOnShoppingList {
+public class TestFiltersOnShoppingList {
 	
-	private static Logger logger = Logger.getLogger(testFiltersOnShoppingList.class.getName());
+	private static Logger logger = Logger.getLogger(TestFiltersOnShoppingList.class.getName());
 	
 	@BeforeClass
 	public void startBrowser() {

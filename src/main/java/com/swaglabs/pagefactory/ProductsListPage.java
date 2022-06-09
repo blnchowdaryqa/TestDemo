@@ -31,6 +31,16 @@ public class ProductsListPage {
 	{
 		return driver.findElement(By.xpath("//button[@id='remove-"+itemName+"']//preceding::div[@class='inventory_item_price']"));
 	}
+	public WebElement get_LeftSideMenu()
+	{
+	return driver.findElement(By.xpath("//button[@id='react-burger-menu-btn']"));
+		
+	}
+	public WebElement get_ResetAppStateLink()
+	{
+	return driver.findElement(By.xpath("//a[@id='reset_sidebar_link']"));
+		
+	}
 		
 	}
 

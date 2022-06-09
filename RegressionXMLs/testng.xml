@@ -7,7 +7,7 @@
 	<test name="saucedemo test">
 		<classes>
 			<class name="com.automation.common.SetWebDrivers" />
-			<class name="com.swaglabs.tests.testAddItemsToCartAndVerify" />
+			<class name="com.swaglabs.tests.TestAddItemsToCartAndVerify" />
 		</classes>
 	
 	</test>
@@ -15,7 +15,7 @@
 	<test name="saucedemo test Price Sorting">
 		<classes>
 			<class name="com.automation.common.SetWebDrivers" />
-			<class name="com.swaglabs.tests.testFiltersOnShoppingList" />
+			<class name="com.swaglabs.tests.TestFiltersOnShoppingList" />
 		</classes>
 	
 	</test>
@@ -23,8 +23,17 @@
 	<test name="saucedemo End2End Scenario">
 		<classes>
 			<class name="com.automation.common.SetWebDrivers" />
-			<class name="com.swaglabs.tests.testShoppingCartEnd2End" />
+			<class name="com.swaglabs.tests.TestShoppingCartEnd2End" />
 		</classes>
 	
 	</test>
+	
+	<test name="saucedemo Validate Reset App State Feature">
+		<classes>
+			<class name="com.automation.common.SetWebDrivers" />
+			<class name="com.swaglabs.tests.TestResetAppState" />
+		</classes>
+	
+	</test>
+	
 </suite>
