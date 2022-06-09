@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-09T12:08:55 IST" name="com.xactly.incent.documentmgmt" finished-at="2022-06-09T12:09:08 IST" duration-ms="12689">
+    <groups>
+    </groups>
+    <test started-at="2022-06-09T12:08:55 IST" name="saucedemo test" finished-at="2022-06-09T12:09:00 IST" duration-ms="5403">
+      <class name="com.swaglabs.tests.testAddItemsToCartAndVerify">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:com.swaglabs.tests.testAddItemsToCartAndVerify@13fd2ccd]" started-at="2022-06-09T12:08:58 IST" name="startBrowser" finished-at="2022-06-09T12:08:59 IST" duration-ms="889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method signature="validateAdd_RemoveProductsInCart(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.swaglabs.tests.testAddItemsToCartAndVerify@13fd2ccd]" started-at="2022-06-09T12:08:59 IST" name="validateAdd_RemoveProductsInCart" data-provider="addProducts" finished-at="2022-06-09T12:08:59 IST" duration-ms="716" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Products]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sauce Labs Backpack]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAdd_RemoveProductsInCart -->
+        <test-method signature="validateAdd_RemoveProductsInCart(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.swaglabs.tests.testAddItemsToCartAndVerify@13fd2ccd]" started-at="2022-06-09T12:08:59 IST" name="validateAdd_RemoveProductsInCart" data-provider="addProducts" finished-at="2022-06-09T12:09:00 IST" duration-ms="587" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Products]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sauce Labs Bike Light]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAdd_RemoveProductsInCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swaglabs.tests.testAddItemsToCartAndVerify@13fd2ccd]" started-at="2022-06-09T12:09:00 IST" name="tearDown" finished-at="2022-06-09T12:09:00 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swaglabs.tests.testAddItemsToCartAndVerify -->
+      <class name="com.automation.common.SetWebDrivers">
+        <test-method is-config="true" signature="setWebDrivers()[pri:0, instance:com.automation.common.SetWebDrivers@4310d43]" started-at="2022-06-09T12:08:55 IST" name="setWebDrivers" finished-at="2022-06-09T12:08:58 IST" duration-ms="3001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setWebDrivers -->
+        <test-method is-config="true" signature="kilDriver()[pri:0, instance:com.automation.common.SetWebDrivers@4310d43]" started-at="2022-06-09T12:09:00 IST" name="kilDriver" finished-at="2022-06-09T12:09:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kilDriver -->
+      </class> <!-- com.automation.common.SetWebDrivers -->
+    </test> <!-- saucedemo test -->
+    <test started-at="2022-06-09T12:09:00 IST" name="saucedemo test Price Sorting" finished-at="2022-06-09T12:09:04 IST" duration-ms="3868">
+      <class name="com.swaglabs.tests.testFiltersOnShoppingList">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:com.swaglabs.tests.testFiltersOnShoppingList@1e6a3214]" started-at="2022-06-09T12:09:01 IST" name="startBrowser" finished-at="2022-06-09T12:09:02 IST" duration-ms="913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method signature="validateSortByPriceHighToLow(java.lang.String,java.lang.String)[pri:0, instance:com.swaglabs.tests.testFiltersOnShoppingList@1e6a3214]" started-at="2022-06-09T12:09:02 IST" name="validateSortByPriceHighToLow" data-provider="FilterBasedOnPriceHighToLow" finished-at="2022-06-09T12:09:03 IST" duration-ms="878" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSortByPriceHighToLow -->
+        <test-method signature="validateSortByPriceLowToHigh(java.lang.String,java.lang.String)[pri:0, instance:com.swaglabs.tests.testFiltersOnShoppingList@1e6a3214]" started-at="2022-06-09T12:09:03 IST" name="validateSortByPriceLowToHigh" data-provider="FilterBasedOnPriceLowToHigh" finished-at="2022-06-09T12:09:04 IST" duration-ms="752" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSortByPriceLowToHigh -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swaglabs.tests.testFiltersOnShoppingList@1e6a3214]" started-at="2022-06-09T12:09:04 IST" name="tearDown" finished-at="2022-06-09T12:09:04 IST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swaglabs.tests.testFiltersOnShoppingList -->
+      <class name="com.automation.common.SetWebDrivers">
+        <test-method is-config="true" signature="setWebDrivers()[pri:0, instance:com.automation.common.SetWebDrivers@20140db9]" started-at="2022-06-09T12:09:00 IST" name="setWebDrivers" finished-at="2022-06-09T12:09:01 IST" duration-ms="1191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setWebDrivers -->
+        <test-method is-config="true" signature="kilDriver()[pri:0, instance:com.automation.common.SetWebDrivers@20140db9]" started-at="2022-06-09T12:09:04 IST" name="kilDriver" finished-at="2022-06-09T12:09:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kilDriver -->
+      </class> <!-- com.automation.common.SetWebDrivers -->
+    </test> <!-- saucedemo test Price Sorting -->
+    <test started-at="2022-06-09T12:09:04 IST" name="saucedemo End2End Scenario" finished-at="2022-06-09T12:09:08 IST" duration-ms="3124">
+      <class name="com.swaglabs.tests.testShoppingCartEnd2End">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:com.swaglabs.tests.testShoppingCartEnd2End@3646a422]" started-at="2022-06-09T12:09:06 IST" name="startBrowser" finished-at="2022-06-09T12:09:06 IST" duration-ms="706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method signature="validateAdd_RemoveProductsInCart(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.swaglabs.tests.testShoppingCartEnd2End@3646a422]" started-at="2022-06-09T12:09:06 IST" name="validateAdd_RemoveProductsInCart" data-provider="addProducts" finished-at="2022-06-09T12:09:07 IST" duration-ms="961" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Products]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sauce Labs Backpack]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[James]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[67263]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAdd_RemoveProductsInCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swaglabs.tests.testShoppingCartEnd2End@3646a422]" started-at="2022-06-09T12:09:07 IST" name="tearDown" finished-at="2022-06-09T12:09:08 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swaglabs.tests.testShoppingCartEnd2End -->
+      <class name="com.automation.common.SetWebDrivers">
+        <test-method is-config="true" signature="preSetUpSuite(java.lang.String)[pri:0, instance:com.automation.common.SetWebDrivers@5ab956d7]" started-at="2022-06-09T12:08:55 IST" name="preSetUpSuite" finished-at="2022-06-09T12:08:55 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetUpSuite -->
+        <test-method is-config="true" signature="setWebDrivers()[pri:0, instance:com.automation.common.SetWebDrivers@5ab956d7]" started-at="2022-06-09T12:09:04 IST" name="setWebDrivers" finished-at="2022-06-09T12:09:06 IST" duration-ms="1316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setWebDrivers -->
+        <test-method is-config="true" signature="kilDriver()[pri:0, instance:com.automation.common.SetWebDrivers@5ab956d7]" started-at="2022-06-09T12:09:08 IST" name="kilDriver" finished-at="2022-06-09T12:09:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kilDriver -->
+      </class> <!-- com.automation.common.SetWebDrivers -->
+    </test> <!-- saucedemo End2End Scenario -->
+  </suite> <!-- com.xactly.incent.documentmgmt -->
+</testng-results>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<suite name="com.xactly.incent.documentmgmt" verbose="2" parallel="none">
+
+	<parameter name="browser" value="chrome" />
+
+
+	<test name="saucedemo test">
+		<classes>
+			<class name="com.automation.common.SetWebDrivers" />
+			<class name="com.swaglabs.tests.testAddItemsToCartAndVerify" />
+		</classes>
+	
+	</test>
+
+	<test name="saucedemo test Price Sorting">
+		<classes>
+			<class name="com.automation.common.SetWebDrivers" />
+			<class name="com.swaglabs.tests.testFiltersOnShoppingList" />
+		</classes>
+	
+	</test>
+	
+	<test name="saucedemo End2End Scenario">
+		<classes>
+			<class name="com.automation.common.SetWebDrivers" />
+			<class name="com.swaglabs.tests.testShoppingCartEnd2End" />
+		</classes>
+	
+	</test>
+</suite>
